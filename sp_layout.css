@@ -18,6 +18,8 @@ html {
     height: 100%;
 }
 
+/* What this code does is it just make the height of the webpage 100%. */
+
 body {
     width: 95%;
     max-width: 960px;
@@ -26,6 +28,8 @@ body {
     margin-right: auto;
     min-height: 100%
 }
+
+/* What these lines of code do is it makes the body of the webpage have a border and it resizes the body.   */
 
 header,
 ul,
@@ -49,18 +53,22 @@ header img {
     width: 70%;
 }
 
+/* What this code does is it pushes the image to the left and resizes it to have a width of 100%.*/
+
 header nav {
     float: left;
     display: block;
     padding: 0% 2% 0% 2%;
     width: 30%;
-
 }
 
+/* What these lines of code do is it makes the links go to the right side of the image, but also it makes the nav bar smaller. */
 header a {
     display: block;
     width: 100%;
 }
+
+/* This makes the header smaller and sets it width to 100%. */
 
 /* Horizontal Navigation List Styles */
 nav.horizontal li {
@@ -69,13 +77,14 @@ nav.horizontal li {
     width: 12.5%;
 }
 
+/* These lines of code set the nav bar to display horizontal.  */
+
 /* Topics Styles */
 ul#topics li {
     display: block;
     width: 20%;
     float: left;
     margin: 0% 1.5% 0% 1.5%;
-
 }
 
 #topics:first-of-type {
@@ -93,10 +102,14 @@ ul#topics li {
     width: 50%;
 }
 
+/* What all these lines of code do is make the images set to the appropriate size but also sets them to display horizonataly.  */
+
 /* HR Styles */
 hr {
     width: 50%;
 }
+
+/* What this line of code does is it make a line break between the imagesand the customer comments. */
 
 /* Customer Comment Styles */
 ul#comments {
@@ -121,9 +134,12 @@ ul#comments {
     margin: 0 5% 0 5%;
 }
 
+/* What these lines of code do is it makes the customer comments display in two columns and also it resizes the images.  */
 
 /* Footer Styles */
 footer {
     display: block;
     clear: both;
 }
+
+/* Finally what this line of code does is it set the footer in the correct postion.  */
